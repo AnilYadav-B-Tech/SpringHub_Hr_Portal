@@ -1,19 +1,19 @@
-# ?? Employee Management System (EMS)
+# Employee Management System (EMS)
 
 A modern, full-stack Employee Management System built with **Spring Boot** backend and **React** frontend. This application provides a complete CRUD interface for managing employee records with a clean, responsive UI.
 
-![Employee Management System](https://img.shields.io/badge/Full--Stack-Employee%20Management-blue?style=for-the-badge&logo=react&logoColor=white)
+![Employee Management System](https://img.shields.io/badge/Full--Stack-Employee%20Management-bluestyle=for-the-badge&logo=react&logoColor=white)
 
-## ? Features
+##  Features
 
-### ?? Core Functionality
+###  Core Functionality
 - **Create Employee**: Add new employees with first name, last name, and email
 - **View Employees**: Display all employees in a clean, sortable table
 - **Update Employee**: Edit existing employee information
 - **Delete Employee**: Remove employees with confirmation dialog
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-### ??? Technical Features
+###  Technical Features
 - **RESTful API**: Well-structured REST endpoints
 - **Real-time Updates**: Instant UI updates after operations
 - **Form Validation**: Client-side and server-side validation
@@ -21,26 +21,26 @@ A modern, full-stack Employee Management System built with **Spring Boot** backe
 - **Error Handling**: Comprehensive error handling and user feedback
 - **Modern UI**: Bootstrap-styled components with hover effects
 
-## ??? Architecture
+##  Architecture
 
 ```
 Employee Management System
-??? Frontend (React)
-?   ??? Components
-?   ?   ??? HeaderComponent
-?   ?   ??? FooterComponent
-?   ?   ??? ListEmployeeComponent
-?   ?   ??? EmployeeComponent (Add/Edit)
-?   ??? Services
-?       ??? EmployeeService (API calls)
-?
-??? Backend (Spring Boot)
-    ??? REST API Endpoints
-    ??? JPA/Hibernate ORM
-    ??? MySQL Database
+├── Frontend (React)
+│   ├── Components
+│   │   ├── HeaderComponent
+│   │   ├── FooterComponent
+│   │   ├── ListEmployeeComponent
+│   │   └── EmployeeComponent (Add/Edit)
+│   └── Services
+│       └── EmployeeService (API calls)
+│
+└── Backend (Spring Boot)
+    ├── REST API Endpoints
+    ├── JPA/Hibernate ORM
+    └── MySQL Database
 ```
 
-## ?? Quick Start
+##  Quick Start
 
 ### Prerequisites
 - **Java 17+**
@@ -48,12 +48,12 @@ Employee Management System
 - **MySQL 8.0+**
 - **Maven 3.6+**
 
-### ??? Database Setup
+###  Database Setup
 ```sql
 CREATE DATABASE employee_management_system;
 ```
 
-### ?? Backend Setup
+###  Backend Setup
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
@@ -75,7 +75,7 @@ CREATE DATABASE employee_management_system;
    ```
    Backend will start on `http://localhost:8080`
 
-### ? Frontend Setup
+###  Frontend Setup
 1. **Navigate to frontend directory**
    ```bash
    cd ems-frontend
@@ -92,7 +92,7 @@ CREATE DATABASE employee_management_system;
    ```
    Frontend will start on `http://localhost:5173`
 
-## ?? API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -118,7 +118,7 @@ Content-Type: application/json
 }
 ```
 
-## ?? Screenshots
+##  Screenshots
 
 ### Employee List View
 - Clean table layout with employee information
@@ -130,7 +130,7 @@ Content-Type: application/json
 - Reusable component for both add and edit operations
 - User-friendly success/error messages
 
-## ?? Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **React 18** - Modern UI library
@@ -146,41 +146,41 @@ Content-Type: application/json
 - **Maven** - Dependency management
 - **Lombok** - Reduce boilerplate code
 
-## ?? Project Structure
+##  Project Structure
 
 ```
 ems-system/
-??? ems-backend/
-?   ??? src/main/java/net/javaguides/ems_backend/
-?   ?   ??? EmsBackendApplication.java
-?   ?   ??? controller/          # REST controllers
-?   ?   ??? entity/             # JPA entities
-?   ?   ??? repository/         # Data repositories
-?   ?   ??? service/            # Business logic
-?   ??? src/main/resources/
-?       ??? application.properties
-?
-??? ems-frontend/
-?   ??? src/
-?   ?   ??? components/         # React components
-?   ?   ??? services/          # API service layer
-?   ?   ??? App.jsx            # Main app component
-?   ?   ??? main.jsx           # Entry point
-?   ??? public/
+├── ems-backend/
+│   ├── src/main/java/net/javaguides/ems_backend/
+│   │   ├── EmsBackendApplication.java
+│   │   ├── controller/          # REST controllers
+│   │   ├── entity/             # JPA entities
+│   │   ├── repository/         # Data repositories
+│   │   └── service/            # Business logic
+│   └── src/main/resources/
+│       └── application.properties
+│
+├── ems-frontend/
+│   ├── src/
+│   │   ├── components/         # React components
+│   │   ├── services/          # API service layer
+│   │   ├── App.jsx            # Main app component
+│   │   └── main.jsx           # Entry point
+│   └── public/
 ```
 
-## ??? Security Features
+##  Security Features
 
 - **Input Validation**: Server-side validation for all inputs
 - **SQL Injection Protection**: JPA prevents SQL injection
 - **CORS Configuration**: Proper cross-origin setup
 - **Error Handling**: Secure error messages
 
-## ?? Development Workflow
+##  Development Workflow
 
 ### Adding New Features
-1. **Backend**: Add entity ? repository ? service ? controller
-2. **Frontend**: Create/update components ? add routing ? integrate API
+1. **Backend**: Add entity  repository  service  controller
+2. **Frontend**: Create/update components  add routing  integrate API
 3. **Testing**: Test API endpoints and UI functionality
 
 ### Common Commands
@@ -196,7 +196,7 @@ npm run build                 # Production build
 npm run preview               # Preview production build
 ```
 
-## ?? Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -213,7 +213,7 @@ npm run preview               # Preview production build
 - Clear node_modules: `rm -rf node_modules && npm install`
 - Check Node.js version compatibility
 
-## ?? Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -221,11 +221,11 @@ npm run preview               # Preview production build
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## ?? License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ?? Acknowledgments
+##  Acknowledgments
 
 - Built with Spring Boot and React
 - UI components powered by Bootstrap
@@ -233,8 +233,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### ?? Contact
+###  Contact
 
 For questions or support, please open an issue in the repository.
 
-**Happy Coding!** ??
+**Happy Coding!** 
